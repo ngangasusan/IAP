@@ -45,11 +45,16 @@ require_once("dbconnect.php");
                 }
                 if (password_verify($this->password,$row['password'])) {
                     return "Successfully Connected!";
+
+                    $_SESSION['userFname'] = $row['userFname'];
+
                 }
                 return "Your Username/Password is incorrect!";
             }catch(PDOException $e){
                 return $e->getMessage();
             }
+            
+
         }
 
         public function changePassword($pdo){

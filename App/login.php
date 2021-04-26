@@ -1,3 +1,7 @@
+<?php
+  session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,9 +21,9 @@
       <input type="password" name="userPassword" id="password" />
       <br><br>
       
-      <input type="hidden" name="event" value="login">  
-      <button type="submit" id="login" name="login">Login</button>
-            
+      <input type="hidden" name="event" value="login">
+      <p><a href="index.php">Login</a></p> 
+   
       <p>Not registered yet? <a href="registration.php">Register Here</a></p>
         
       <div><input type="checkbox" id="check" /><span>Remember me</span></div>
