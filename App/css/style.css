@@ -1,0 +1,33 @@
+body{
+    background-color: #3DAAA5;
+    margin: 10px;
+    padding: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+a, button{
+    background-color: #37F6EE;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+input{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.mainPart{
+    background-color: #C3F5F3;
+    margin: 10px;
+    padding: 15px;
+}
